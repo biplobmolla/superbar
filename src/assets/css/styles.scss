@@ -1,0 +1,19 @@
+@import "../../../dist/tailwind.dist.css";
+
+#superbar {
+	width: 700px;
+	position: fixed;
+	top: 28vh;
+	left: 31vw;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+		rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+	z-index: 99999999;
+}
+
+#superbar input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	background: white;
+	outline: none;
+}
