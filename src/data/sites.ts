@@ -24,6 +24,7 @@ const SITES = [
 		links: [
 			{ text: "Library", link: "/feed/library" },
 			{ text: "Gaming", link: "/gaming" },
+			{ text: "Settings", link: "/account" },
 		],
 	},
 ];
