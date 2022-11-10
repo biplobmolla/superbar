@@ -19,6 +19,13 @@ const SITES = [
 			{ text: "Settings", link: "/settings" },
 		],
 	},
+	{
+		domain: "youtube.com",
+		links: [
+			{ text: "Library", link: "/feed/library" },
+			{ text: "Gaming", link: "/gaming" },
+		],
+	},
 ];
 
 export const getSite = (hostname: string) => {
